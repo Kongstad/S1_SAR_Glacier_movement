@@ -44,7 +44,7 @@ Open one of the bands from the stacked image in the image window and zoom in on 
 ___
 
 ## 5) Offset tracking
-*Menu: SAR Applications -> Offset Tracking
+*Menu: SAR Applications -> Offset Tracking*
 
 Offset tracking can be computing intensive so be aware with large data sets. Offset tracking estimates the movement of the glacier surfaces between the two images. It computes cross-correlation on a selected Ground Contro Point in both images. The glacier velocities on a selected GCP is then computed based on the offsets calculated by the cross/correlation. A velocity map is generated through interpolation of the velocities computed on the GCP grid. See a very good explanation [here](https://asf.alaska.edu/how-to/data-recipes/how-to-create-glacier-velocity-maps-with-sentinel-1-toolbox/) in the Offset Tracking section.
  
@@ -52,11 +52,17 @@ Offset tracking can be computing intensive so be aware with large data sets. Off
 ___
 
 ## 6) Generate glacier velocity map
+Once the offset tracking is complete, open the finished product by selecting the velocity product and showing it in the image viewer. In the top right corner of SNAP, click the layer manager and add a new layer named "Coregistered GCP Movement Vector. This will add the calculated movement vectors to your image view showing speed and direction
 
+![](images/glacier_vel_map1_1.PNG) ![](images/glacier_vel_map1_2.PNG)
 ___
 
 ## 7) Range Dopper Terrain Correction
+*Menu: Geometric -> Terrain Correction -> Range Doppler Terrain Correciton
 
+In order to export the project for review in Google Earth, we are going to perform terrain correction. Remember to change the DEM to ACE30 for polar cover.
+
+![](images/tc1_1.PNG) ![](images/tc1_2.PNG)
 ___
 
 ## 8) Export KMZ to Google Earth Pro
