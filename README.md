@@ -1,5 +1,5 @@
 # Sentinel-1 SAR data to visualize glacial movement
-Using Sentinel-1 SAR GRD data to visualize glacial movement on Eastern Greenland via SNAP and Google Earth Pro. This repository does not contain any python code and is rather a demonstration of the retrieval and usage of SAR data to visualize iceflow. It generally covers the overarching steps, but does not dwelve into great technical detail on the various steps. This is explained better and in depth from: https://asf.alaska.edu/, which is also where I have found guidance and inspiration for this small project.
+Using Sentinel-1 SAR GRD data to visualize glacial movement on Eastern Greenland via SNAP and Google Earth Pro. This repository does not contain any python code and is rather a demonstration of the retrieval and usage of SAR data to visualize iceflow. It generally covers the overarching steps, but does not dwelve into great technical detail on each step. This is explained better and in depth from: https://asf.alaska.edu/, which is also where I have found guidance and inspiration for this small project.
 
 ![](images/glacialmelt_GE.PNG)
 
