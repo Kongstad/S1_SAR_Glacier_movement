@@ -57,8 +57,8 @@ Once the offset tracking is complete, open the finished product by selecting the
 ![](images/glacier_vel_map1_1.PNG) ![](images/glacier_vel_map1_2.PNG)
 ___
 
-## 7) Range Dopper Terrain Correction
-*Menu: Geometric -> Terrain Correction -> Range Doppler Terrain Correciton
+## 7) Range Doppler Terrain Correction
+*Menu: Geometric -> Terrain Correction -> Range Doppler Terrain Correction*
 
 In order to export the project for review in Google Earth, we are going to perform terrain correction. Remember to change the DEM to ACE30 for polar cover.
 
@@ -66,5 +66,7 @@ In order to export the project for review in Google Earth, we are going to perfo
 ___
 
 ## 8) Export KMZ to Google Earth Pro
-
+*Menu: File -> Export -> Other -> View as Google Earth KMZ*
+Select the final product and export it as a Google Earth KMZ file. This can be opened up in Google Earth Pro and visualized neatly as seen below
+![](images/glacialmelt_GE_SM.PNG)
 ___
