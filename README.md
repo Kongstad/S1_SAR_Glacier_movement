@@ -1,6 +1,5 @@
 # Sentinel-1 SAR data to visualize glacial movement
-Using Sentinel-1 SAR GRD data to visualize glacial movement on Eastern Greenland via SNAP and Google Earth Pro. This repository does not contain any python code and is rather a demonstration of the retrieval and usage of SAR data to visualize iceflow. It generally covers the overarching steps, but is by no means a step by step guide. 
-This effort has been completed thanks to the tutorials from: https://asf.alaska.edu/
+Using Sentinel-1 SAR GRD data to visualize glacial movement on Eastern Greenland via SNAP and Google Earth Pro. This repository does not contain any python code and is rather a demonstration of the retrieval and usage of SAR data to visualize iceflow. It generally covers the overarching steps, but does not dwelve into great technical detail on the various steps. This is explained better and in depth from: https://asf.alaska.edu/, which is also where I have found guidance and inspiration for this small project.
 
 ![](images/glacialmelt_GE.PNG)
 
@@ -17,7 +16,7 @@ The images I have found on Copernicus Sci Hub and have the following names:
  * S1A_IW_GRDH_1SDH_20220812T083752_20220812T083817_044517_055004_D3C2
  * S1A_IW_GRDH_1SDH_20220824T083752_20220824T083817_044692_0555F5_334B
 
-As seen in the name they are from the 12th and 24th of August 2022. This is during summer in the Northern Hemisphere and the period where we are likely to see the most glacial melting taking place. 
+As seen in the name they are from the 12th and 24th of August 2022. This is during summer in the Northern Hemisphere and the period where we are likely to see the most glacial surface melting taking place. 
 
 ![](images/amplitude_full.PNG)
 ___
@@ -32,7 +31,7 @@ ___
 ## 3) Coregister the images into a stack using DEM
 *Menu: Radar -> Coregistration -> DEM-Assisted coregistration -> DEM Assisted Coregistration with XCorr*
 
-Using the two images as input and a auto acquired DEM, the images will be stacked together. Seen as the standard setting of SRTM3sec does not cover the polar regions, I have used teh ACE30 DEM setting instead.
+Using the two images as input and a auto acquired DEM, the images will be stacked together. Seen as the standard setting of SRTM3sec does not cover the polar regions, I have used the ACE30 DEM setting instead.
 
 ![](images/coreg1_1.PNG) ![](images/coreg1_2.PNG)
 ____
